@@ -9,16 +9,12 @@ class CustomUserAdmin(UserAdmin):  # type: ignore[type-arg]
     add_form = CustomUserCreationForm
     form = CustomUserChangeForm
     model = CustomUser
-    list_display = ["email", "username", "name", "is_staff"]
-    fieldsets = (
-        *(UserAdmin.fieldsets or ()),  # if None, use empty tuple
-        (None, {"fields": ("name",)}),
-    )
-
-    add_fieldsets = (
-        *(UserAdmin.add_fieldsets or ()),
-        (None, {"fields": ("name",)}),
-    )
+    list_display = [
+        "email",
+        "username",
+        "is_staff",
+        "is_active",
+    ]
 
 
 admin.site.register(CustomUser, CustomUserAdmin)

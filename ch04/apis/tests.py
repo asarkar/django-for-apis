@@ -4,7 +4,7 @@ from rest_framework import status
 from rest_framework.test import APITestCase
 
 
-class BookTests(APITestCase):
+class APITests(APITestCase):
     book: Book
 
     @classmethod

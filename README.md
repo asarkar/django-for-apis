@@ -1,4 +1,4 @@
-This repository contains practice code from the book "Django for APIs".
+This repository contains practice code from the book [Django for APIs](https://learndjango.com/courses/django-for-apis/), 5th edition.
 
 [![](https://github.com/asarkar/django-for-apis/workflows/CI/badge.svg)](https://github.com/asarkar/django-for-apis/actions)
 
@@ -8,12 +8,13 @@ This repository contains practice code from the book "Django for APIs".
 2. Web APIs
 3. [Library Website](ch03/)
 4. [Library API](ch04/)
-5. [TODO API](ch05/)
-6. [Blog API](ch06/)
-7. [Permissions](ch07/)
-8. [User Authentication](ch08/)
-9. [Viewsets and Routers](ch09/)
-10. [Schemas and Documentation](ch10/)
+5. [Todo API](ch05/)
+6. Todo Vue Frontend
+7. [Blog API](ch07/)
+8. [Permissions](ch08/)
+9. [User Authentication](ch09/)
+10. [Viewsets and Routers](ch10/)
+11. [Schemas and Documentation](ch11/)
 
 ## API Endpoints
 

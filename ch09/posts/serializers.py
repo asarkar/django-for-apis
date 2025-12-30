@@ -18,12 +18,3 @@ class PostSerializer(serializers.ModelSerializer[Post]):
             "created_at",
         )
         model = Post
-
-
-class UserSerializer(serializers.ModelSerializer):  # type: ignore[type-arg] # Don't hardcode user model
-    class Meta:
-        model = get_user_model()
-        fields = (
-            "id",
-            "username",
-        )
